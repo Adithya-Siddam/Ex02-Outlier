@@ -39,8 +39,8 @@ Plot the datas using Box Plot.
 # PROGRAM
 
 ```
-Developed by : V.A.JITHENDRA
-Registration Number : 212221230043
+Developed by : S Adithya Chowdary.
+Registration Number : 212221230100.
 ```
 ```
 import pandas as ps
@@ -112,51 +112,53 @@ sns.boxplot(x='height',data=df4)
 # OUTPUT
 
 ### DATASET FOR BHP_CSV
-![](./1.png)
+![image](https://user-images.githubusercontent.com/93427248/203038580-a202f91e-c3ea-489b-9474-2889c437a626.png)
 ### DATASET HEAD(BHP)
-![](./2.png)
+![image](https://user-images.githubusercontent.com/93427248/203038614-980afe54-32cf-4403-94ee-58caf66f5542.png)
 ### DATASET DESCRIBE(BHP)
-![](./3.png)
+![image](https://user-images.githubusercontent.com/93427248/203038646-c02dd55f-2ff5-4c73-b5b0-40bb91e41174.png)
 ### DATASET INFO(BHP)
-![](./4.png)
+![image](https://user-images.githubusercontent.com/93427248/203038688-deacef2d-9c38-4b12-9213-d216d426082b.png)
 ### DATASET NULL VALUES(BHP)
-![](./5.png)
+![image](https://user-images.githubusercontent.com/93427248/203038759-94fe0759-6ec8-4790-b527-7468b926411a.png)
 ### DATASET SHAPE WITH OUTLIERS(BHP)
-![](./6.png)
+![image](https://user-images.githubusercontent.com/93427248/203038791-ffccc14d-ba35-4b5b-b4eb-24f0a091a807.png)
 ### DATASET BOXPLOT WITH OUTLIERS(BHP)
-![](./7.png)
+![image](https://user-images.githubusercontent.com/93427248/203038842-db982036-2a93-457f-87af-d3fd2ef4b3d5.png)
 ### DATASET WITHOUT OUTLIERS(BHP)
-![](./8.png)
-![](./25.png)
+![image](https://user-images.githubusercontent.com/93427248/203038949-201d00c6-c4b1-456e-aa42-32fdc43bd3f1.png)
+
+![image](https://user-images.githubusercontent.com/93427248/203038986-cb662a49-b008-4ce7-a2a7-4ffc9e52083b.png)
 ### DATASET SHAPE WITHOUT OUTLIERS(BHP)
-![](./26.png)
+![image](https://user-images.githubusercontent.com/93427248/203039036-d781aefe-a086-4c0b-b4c9-b882bb949632.png)
 ### DATASET BOXPLOT WITHOUT OUTLIERS(BHP)
-![](./27.png)
+![image](https://user-images.githubusercontent.com/93427248/203039073-4e22e7b3-ceb1-48c5-b4c8-ca5c9569ffb7.png)
 ### DATASET AFTER REMOVAL OF OUTLIERS USING Z-SCORE(BHP)
-![](./12.png)
+![image](https://user-images.githubusercontent.com/93427248/203039125-191c2995-d5a4-4d3c-9882-db5010db33d2.png)
 ### DATASET SHAPE AFTER REMOVAL OF OUTLIERS USING Z-SCORE(BHP)
-![](./13.png)
+![image](https://user-images.githubusercontent.com/93427248/203039165-c4df23ad-1761-4a30-a9d7-3bde8cff5537.png)
 ### DATASET BOXPLOT AFTER REMOVAL OF OUTLIERS USING Z-SCORE(BHP)
-![](./14.png)
+![image](https://user-images.githubusercontent.com/93427248/203039210-5bb73f2d-64af-4843-8b1c-4159576fd74b.png)
 ### DATASET FOR WEIGHT_HEIGHT_CSV
-![](./15.png)
+![image](https://user-images.githubusercontent.com/93427248/203039252-4451fb18-6ad4-49ac-8ea3-c9bd1c66a447.png)
 ### DATASET HEAD(WEIGHT_HEIGHT)
-![](./16.png)
+![image](https://user-images.githubusercontent.com/93427248/203039296-a8b078e5-0804-4c75-a0c2-3bbb5542f5cd.png)
 ### DATASET INFO(WEIGHT_HEIGHT)
-![](./17.png)
+![image](https://user-images.githubusercontent.com/93427248/203039328-a3a3aa36-836f-4686-b969-d13c1feb2137.png)
 ### DATASET DESCRIBE(WEIGHT_HEIGHT)
-![](./18.png)
+![image](https://user-images.githubusercontent.com/93427248/203039366-c3a557db-0aa7-4c2f-aaab-1bd712819829.png)
 ### DATASET NULL VALUES(WEIGHT_HEIGHT)
-![](./19.png)
+![image](https://user-images.githubusercontent.com/93427248/203039400-573c9715-2b3d-463e-94bd-8b9a81f2b004.png)
 ### DATASET BOXPLOT WITH OUTLIERS(WEIGHT_HEIGHT)
-![](./20.png)
+![image](https://user-images.githubusercontent.com/93427248/203039473-502e05d0-d638-4b99-b623-da47db0f598a.png)
 ### DATASET AFTER REMOVING OUTLIERS USING IQR METHOD(WEIGHT_HEIGHT)
-![](./22.png)
-![](./21.png)
+![image](https://user-images.githubusercontent.com/93427248/203039539-30e9488d-4421-41cf-a0ab-163e159e6550.png)
+
+![image](https://user-images.githubusercontent.com/93427248/203039589-06a38027-a11a-4146-b589-a8fec24cad0d.png)
 ### DATASET SHAPE(WEIGHT_HEIGHT)
-![](./23.png)
+![image](https://user-images.githubusercontent.com/93427248/203039630-50d21833-7c00-4bbc-816f-d3965b18b243.png)
 ### DATASET BOXPLOT AFTER REMOVING OUTLIERS USING IQR METHOD(WEIGHT_HEIGHT)
-![](./24.png)
+![image](https://user-images.githubusercontent.com/93427248/203039661-b8022ff5-b76b-4c2f-9cb0-f24b11bd69c5.png)
 
 # RESULT
 The given datasets are read and outliers are detected and are removed using IQR and z-score methods.
